@@ -1117,7 +1117,7 @@ function Header() {
                 <span>Abhishek Singh</span>
                 <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
               </div>
-              <p className="text-[11px] font-mono text-slate-400">Cloud & DevOps Engineer</p>
+              <p className="text-[11px] font-mono text-slate-400">Cloud Sales Engineer | Pre-Sales</p>
             </div>
           </a>
         </Magnetic>
@@ -1348,19 +1348,19 @@ function Hero({
             >
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-950/70 border border-blue-700/60 text-blue-400 text-xs font-mono font-semibold mb-6 backdrop-blur-md shadow-lg shadow-blue-950/40">
                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
-                <span>99.9% PRODUCTION SLA • CLOUD & DEVOPS ENGINEER</span>
+                <span>99.9% PRODUCTION SLA • CLOUD SALES ENGINEER</span>
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
-                Architecting Resilient <br className="hidden sm:block" />
+                Architecting Cloud Solutions <br className="hidden sm:block" />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-300 to-indigo-400">
-                  Cloud Infrastructure
+                  & Delivering Business Value
                 </span>
-                <br />& Automated Pipelines
+                <br />Through Technical Pre-Sales
               </h1>
 
               <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-                Results-driven <strong className="text-white font-semibold">Cloud Engineer</strong> with hands-on expertise across <strong className="text-blue-400 font-semibold">AWS</strong>, <strong className="text-blue-400 font-semibold">GCP</strong>, <strong className="text-blue-400 font-semibold">VMware ESXi virtualization</strong>, Linux administration (Ubuntu), and enterprise datacenter operations. Standardizing CI/CD provisioning to accelerate release velocity and ensure high availability.
+                Technically adept <strong className="text-white font-semibold">Cloud Sales Engineer & Pre-Sales Consultant</strong> with hands-on expertise across <strong className="text-blue-400 font-semibold">AWS</strong>, <strong className="text-blue-400 font-semibold">GCP</strong>, <strong className="text-blue-400 font-semibold">VMware ESXi virtualization</strong>, and IT infrastructure. Translating complex engineering capabilities into clear business value, conducting client discovery sessions, delivering tailored technical demos, and formulating cost-benefit proposals.
               </p>
 
               {/* Action Buttons with Magnetic Pull */}
@@ -1434,7 +1434,7 @@ function Hero({
                   {!imageError ? (
                     <img
                       src={profilePhoto}
-                      alt="Abhishek Singh - Cloud & DevOps Engineer"
+                      alt="Abhishek Singh - Cloud Sales Engineer"
                       onError={() => setImageError(true)}
                       className="w-full h-full object-cover object-top scale-105 group-hover:scale-110 transition-transform duration-700"
                     />
@@ -1442,7 +1442,7 @@ function Hero({
                     <div className="flex flex-col items-center justify-center text-center p-6 text-slate-400">
                       <TerminalIcon className="w-16 h-16 text-blue-400 mb-2" />
                       <span className="font-bold text-white text-lg">Abhishek Singh</span>
-                      <span className="text-xs text-blue-400 font-mono">Cloud Engineer</span>
+                      <span className="text-xs text-blue-400 font-mono">Cloud Sales Engineer</span>
                     </div>
                   )}
 
@@ -2188,13 +2188,13 @@ function AboutSection() {
 
             <div className="space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
               <p>
-                I am a results-driven <strong className="text-white">Cloud Engineer</strong> currently managing production cloud and datacenter workloads at <strong className="text-blue-400 font-semibold">Purvaco Technology Pvt. Ltd.</strong> in Ghaziabad, India.
+                I am a results-driven <strong className="text-white">Cloud Sales Engineer & Pre-Sales Consultant</strong> with production experience managing cloud workloads at <strong className="text-blue-400 font-semibold">Purvaco Technology Pvt. Ltd.</strong> in Ghaziabad, India.
               </p>
               <p>
-                My background bridges the full spectrum of modern infrastructure: from low-level datacenter hardware maintenance, RAID configuration, and VMware ESXi hypervisor virtualization, up to multi-cloud architecture across <strong className="text-white">AWS (EC2, S3, VPC, RDS, IAM)</strong> and <strong className="text-white">Google Cloud Platform (GCP, AlloyDB)</strong>.
+                My background bridges deep engineering with customer-facing solution architecture: from enterprise datacenter hardware maintenance and VMware ESXi virtualization, up to multi-cloud architecture across <strong className="text-white">AWS (EC2, S3, VPC, RDS, IAM)</strong> and <strong className="text-white">Google Cloud Platform (GCP, AlloyDB)</strong>.
               </p>
               <p>
-                I have a strong track record of maintaining strict <strong className="text-emerald-400 font-semibold">99.9% uptime SLAs</strong> for business-critical client applications, executing disaster recovery protocols, hardening security policies, and standardizing CI/CD provisioning workflows that reduced deployment latency by <strong className="text-blue-400 font-semibold">20%</strong>.
+                I specialize in leading client discovery sessions, delivering tailored technical demos, sustaining <strong className="text-emerald-400 font-semibold">99.9% uptime SLAs</strong>, and presenting <strong className="text-blue-400 font-semibold">20%+ cloud cost optimization</strong> proposals that establish trust and accelerate deal closures.
               </p>
             </div>
 
@@ -2421,38 +2421,37 @@ function SkillsMatrix() {
 function CareerJourney() {
   const experiences = [
     {
-      role: "Cloud Engineer",
+      role: "Cloud Engineer (Technical Pre-Sales & Client Solutions)",
       company: "Purvaco Technology Pvt. Ltd.",
       location: "Ghaziabad, India",
       period: "September 2025 — Present",
       type: "Full-Time",
-      description: "Leading multi-cloud management across AWS & GCP, administering VMware ESXi virtual environments, Linux servers, and maintaining 99.9% uptime SLA.",
+      description: "Partnering with business development leads and enterprise clients to architect multi-cloud solutions (AWS & GCP), deliver technical discovery sessions and PoCs, and formulate 20%+ cloud cost optimization proposals.",
       achievements: [
-        "Manage and maintain cloud infrastructure across AWS (EC2, S3, VPC, RDS, IAM) and GCP, ensuring production workload stability with 99.9% uptime SLA.",
-        "Perform Ubuntu Linux administration and manage Windows Server (2016/2019/2022) environments for business-critical applications.",
-        "Administer VMware ESXi virtualization platform — virtual machine provisioning, hypervisor management, and capacity planning.",
-        "Configure networking services including DNS, DHCP, VPN, and TCP/IP; enforce firewall policies for secure, reliable connectivity.",
-        "Implement cloud security best practices: access controls, infrastructure hardening, and compliance standards across all cloud environments.",
-        "Drive cost optimization by continuously monitoring resource utilization and rightsizing cloud workloads to reduce unnecessary spend.",
-        "Collaborate with development teams to support cloud-hosted applications and streamline CI/CD deployment pipelines, reducing deployment time by approximately 20%.",
-        "Support datacenter operations: RAID configuration, hardware maintenance, rack installation, and network cabling.",
-        "Execute disaster recovery planning and backup management procedures to safeguard critical infrastructure and business continuity."
+        "Partner with business development teams and client stakeholders to architect multi-cloud production workloads across AWS (EC2, S3, VPC, RDS, IAM) and GCP, guaranteeing client-facing 99.9% uptime SLAs.",
+        "Deliver technical discovery calls and solution walkthroughs for enterprise VMware ESXi virtualization infrastructure, advising clients on hypervisor management, capacity planning, and resource allocation.",
+        "Design and present automated CI/CD deployment pipelines as technical Proofs of Concept (PoCs), demonstrating a 20% reduction in deployment turnaround time to accelerate customer onboarding.",
+        "Conduct comprehensive infrastructure audits and propose cloud cost optimization roadmaps, rightsizing compute/storage workloads to demonstrate measurable ROI and reduce client cloud expenditures.",
+        "Address client security and compliance requirements during technical assessments, articulating least-privilege IAM policies, zero-trust principles, and firewall hardening across VPN and TCP/IP interfaces.",
+        "Perform end-to-end administration and technical support across Ubuntu Linux and Windows Server environments, ensuring seamless operational readiness for customer deployments.",
+        "Advise enterprise prospects on Disaster Recovery (DR) strategies and automated backup protocols, providing peace of mind by safeguarding business-critical infrastructure against downtime.",
+        "Execute enterprise datacenter operations including server deployments, hardware rack installations, and RAID array setups, ensuring physical infrastructure meets client performance standards."
       ],
-      technologies: ["AWS", "GCP", "VMware ESXi", "Ubuntu Linux", "Windows Server", "CI/CD", "Plesk", "RAID", "IAM", "DNS/VPN"]
+      technologies: ["AWS & GCP", "Technical Pre-Sales", "VMware ESXi", "Client Demos & PoCs", "Cost Optimization & TCO", "CI/CD Automation", "Ubuntu Linux", "Disaster Recovery", "Zero Trust / IAM"]
     },
     {
-      role: "AI & Innovation Engineer (Social Impact)",
+      role: "Project Lead & Technical Presenter (Social Impact)",
       company: "Madadgar Foundation / Hackathons",
       location: "India",
       period: "2024 — 2025",
       type: "Project & Innovation",
-      description: "Engineered AI-driven safety analytics and automated monitoring prototypes.",
+      description: "Delivered winning technical presentations and live stakeholder pitches, earning national innovation awards and deploying 5+ client-focused prototypes.",
       achievements: [
-        "Engineered an AI-powered analytics solution for threat detection and public safety monitoring using anomaly detection and classification models.",
-        "Awarded at Smart India Hackathon (SIH) and Hackwith Uttarakhand for innovative AI solution design and implementation.",
-        "Collaborated with Madadgar Foundation to deliver 5+ working social-impact prototypes applying technology to real-world safety challenges."
+        "Delivered live technical pitches and solution demonstrations to expert panels, winning innovation awards at Smart India Hackathon (SIH) and Hackwith Uttarakhand for functional execution and real-world applicability.",
+        "Engineered an anomaly detection and classification platform, effectively translating complex data telemetry into clear, actionable safety insights for non-technical stakeholders.",
+        "Collaborated directly with the Madadgar Foundation to conduct stakeholder requirement gathering, deploying 5+ functional social-impact software prototypes solving real-world challenges."
       ],
-      technologies: ["Python", "Machine Learning", "Pandas", "Scikit-learn", "AI Anomaly Detection"]
+      technologies: ["Technical Pitching", "Client Demonstration", "Python", "Machine Learning", "Pandas", "Scikit-learn", "SIH Winner"]
     }
   ];
 
@@ -2991,14 +2990,14 @@ function ContactSection() {
         >
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-950/70 border border-blue-800/70 text-blue-400 text-xs font-mono mb-6 shadow-md">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span>OPEN FOR CLOUD & DEVOPS OPPORTUNITIES</span>
+            <span>OPEN FOR CLOUD SALES ENGINEER & PRE-SALES OPPORTUNITIES</span>
           </div>
 
           <h2 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
-            Let's Build Something Reliable.
+            Let's Drive Measurable Enterprise Cloud Value.
           </h2>
           <p className="text-slate-300 text-base sm:text-lg max-w-xl mx-auto mb-10 leading-relaxed">
-            Looking for a dedicated Cloud & DevOps Engineer to design resilient infrastructure, automate CI/CD pipelines, or optimize your cloud costs?
+            Looking for a technically grounded Cloud Sales Engineer to lead client discovery sessions, deliver high-impact technical demos, and design resilient multi-cloud solutions?
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
